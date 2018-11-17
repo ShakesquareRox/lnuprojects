@@ -13,10 +13,9 @@ public class average {
 		int c = input.nextInt();
 		int sum = a + b + c;
 		double average = sum / 3.0;
-		double aRound = Math.round(average * 100.0) / 100.0;
+		double aRound = Math.round(average*100.0)/100.0;
 		System.out.println("The average of the 3 numbers are: " + aRound);
 		input.close();
-		// just a comment
 
 	}
 
