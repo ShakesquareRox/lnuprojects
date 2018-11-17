@@ -1,0 +1,17 @@
+package Practice;
+
+public class Swap {
+
+	public static void main(String[] args) {
+		//to swap the values of variables
+		int a = 1;
+		int b = 2;
+		int temp;
+		a = temp;
+		temp = b;
+		b = temp;
+		System.out.println(a + b);
+
+	}
+
+}

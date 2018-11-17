@@ -1,0 +1,18 @@
+import java.util.Random;
+public class randomSum {
+
+	public static void main(String[] args) {
+		//enter 5 numbers and print the sum of random 2 numbers
+	  Random rand = new Random();
+	  int i=0;
+	  if(i<5) {
+		  int a = rand.nextInt(101);
+			System.out.println(a);
+			i += i;
+	  }
+	
+
+		
+	}
+
+}

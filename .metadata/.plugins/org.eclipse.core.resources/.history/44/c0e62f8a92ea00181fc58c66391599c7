@@ -1,0 +1,18 @@
+package Practice;
+
+public class binaryAddition {
+
+	public static void main(String[] args) {
+		int a = 0b10;
+		int b = 0b11;
+		int result = binaryAddition.binarySum(a,b);
+		String sum = Integer.toBinaryString(result);
+		System.out.println(sum);
+		
+		
+	}
+	public static int binarySum(int a,int b) {
+		return a+b;
+	}
+
+}

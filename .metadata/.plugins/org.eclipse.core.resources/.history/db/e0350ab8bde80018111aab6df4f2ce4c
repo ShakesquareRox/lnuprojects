@@ -1,0 +1,29 @@
+package Practice;
+
+public class cozaLozaWoza {
+
+	public static void main(String[] args) {
+		// coza for multiples of 3; loza for 5; woza for 7
+		int i= 0;
+		int a = i%3;
+		int b = i%5;
+		int c = i%7;
+		for(i=0; i<111;i++) {
+			if(a == 0) {
+				System.out.println("Coza");
+			}
+			if(b == 0) {
+				System.out.println("Loza");
+			}
+			if(c == 0) {
+				System.out.println("Woza");
+			}
+			else {
+				System.out.println(i);
+			}
+		}
+		
+
+	}
+
+}

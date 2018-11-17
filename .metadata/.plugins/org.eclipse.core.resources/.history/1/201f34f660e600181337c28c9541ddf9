@@ -1,0 +1,17 @@
+import java.util.Random;
+public class randomSum {
+
+	public static void main(String[] args) {
+		//enter 5 numbers and print the sum of random 2 numbers
+	  Random rand = new Random();
+	  int i=0;
+	  for( i=0 ; i<5 ;i++) {
+		  int a = rand.nextInt(101);
+			System.out.println(a);
+	  }
+	
+
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+
+public class Time {
+
+	public static void main(String[] args) {
+		//to print seconds in hours and minutes
+		int seconds = 60;
+		//to print seconds in minutes
+		int minutes;
+		minutes = seconds/60;
+		System.out.println(minutes + "mins");
+		//to print seconds in hours
+		int hours;
+		hours = minutes/3600;
+		System.out.println(hours + "hrs");
+	}
+
+}

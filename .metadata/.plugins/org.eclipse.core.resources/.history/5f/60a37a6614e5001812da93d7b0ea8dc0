@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Area {
+
+	public static void main(String[] args) {
+		// to make a program that prints area of a circle with radius
+		
+		double pi = 22.0 / 7.0;
+		double radius;
+		System.out.println("Enter the radius of the circle! \n");
+		Scanner input = new Scanner(System.in);
+		radius = input.nextDouble();
+		double area = pi * radius * radius;
+		/*int places = 1;
+		double scale = Math.pow(10, places);
+		double A = Math.round(area * scale) / scale;*/
+		int x;
+		x = (int) (Math.round(area * 10.0)/10.0);
+		System.out.println("\nThe area is " + area);
+		System.out.println("\nThe rounded off area is " + x);
+		input.close();
+	}
+	
+
+}

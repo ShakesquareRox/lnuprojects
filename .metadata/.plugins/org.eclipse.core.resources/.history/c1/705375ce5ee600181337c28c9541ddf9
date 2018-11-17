@@ -1,0 +1,24 @@
+import java.util.*;
+public class Sqrt {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		//to print the square root for distance; distance  = ((x1-x2)^2 + (y1-y2)^2)^(1/2)
+		//the first coordinates
+		System.out.println("Enter the first coordinates! ");
+		int x1 = input.nextInt();
+		int y1 = input.nextInt();
+		System.out.println("The coordinates are " + "("+x1+","+y1+")");
+		//the second coordinates
+		System.out.println("Enter the second coordinates! ");
+		int x2 = input.nextInt();
+		int y2 = input.nextInt();
+		System.out.println("The coordinates are " + "("+x2+","+y2+")");
+		//(x1-x2)^2
+		int x = x1-x2;
+		int a = x^2;
+		System.out.println(a);
+	}
+
+}

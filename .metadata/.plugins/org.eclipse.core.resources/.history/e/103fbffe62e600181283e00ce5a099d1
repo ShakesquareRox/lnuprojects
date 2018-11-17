@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class pGenerator {
+
+	public static void main(String[] args) {
+		Random rand = new Random();
+		int r = rand.nextInt(100000001);
+		System.out.println(r);
+	}
+	
+}

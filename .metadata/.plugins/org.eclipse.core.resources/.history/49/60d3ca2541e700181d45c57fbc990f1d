@@ -1,0 +1,15 @@
+package Practice;
+
+public class multiplyToTen {
+
+	public static void main(String[] args) {
+		//to receive an input number and multiply it by 10 nums and display result
+		int i,a = 1;
+		for(i = 0;i < 10;i++) {
+			int x = a * i;
+			System.out.println(a +" * "+ i + " = " + x);
+		}
+		
+	}
+
+}

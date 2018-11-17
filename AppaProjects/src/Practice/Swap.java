@@ -1,0 +1,24 @@
+package Practice;
+
+import java.util.*;
+
+public class Swap {
+
+	public static void main(String[] args) {
+		// to swap the values of variables
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter two numbers for swapping! ");
+		int a = input.nextInt();
+		int b = input.nextInt();
+		int temp;
+		temp = a;
+		a = b;
+		b = temp;
+		System.out.println("After swapping! ");
+		System.out.println(a);
+		System.out.println(b);
+		input.close();
+
+	}
+
+}

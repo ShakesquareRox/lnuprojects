@@ -1,0 +1,19 @@
+
+public class Time {
+
+	public static void main(String[] args) {
+		//to print seconds in hours and minutes
+		int seconds = 120;
+		int minutes = seconds/60;
+		int hours = seconds/3600;
+		if(minutes>60)
+		{
+			hours = hours + 1;
+		}
+		System.out.println(hours + "hrs" + minutes + "mins");
+		
+		
+		
+	}
+
+}
